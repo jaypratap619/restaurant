@@ -1,13 +1,4 @@
 /*------------------------------------------------------------------
-    File Name: style.css
-    Template Name: Landigoo
-    Created By: MelodyThemes
-    Envato Profile: http://themeforest.net/user/melodythemes
-    Website: https://melodythemes.com
-    Version: 1.0
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
     [Table of contents]
 	
 	1. IMPORT FONTS
@@ -383,7 +374,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/banner.jpg) no-repeat center top;
+	background:url(../images/bg-image.png) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
