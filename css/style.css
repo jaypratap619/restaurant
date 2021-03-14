@@ -1,6 +1,7 @@
+
 /*------------------------------------------------------------------
     [Table of contents]
-	
+
 	1. IMPORT FONTS
     2. IMPORT FILES
 	3. SKELETON
@@ -19,7 +20,7 @@
 	13. FOOTER AREA
 	14. COPYRIGHT AREA
 	15. COLOR SWITCHER AREA
-	
+
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -192,14 +193,14 @@ html, body{ height: 100%; }
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-	text-align: center; 
+	text-align: center;
 	font-family: georgia;
 	position: fixed;
 	top: 0px;
 	width: 100%;
 	margin-bottom: 50px;
 	margin-left: -10px;
-} 
+}
 
 #loader  {
      position: fixed;
@@ -230,13 +231,13 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 .scrollup{
 	width:40px;
-	height:40px;			
+	height:40px;
 	text-indent:-9999px;
 	opacity:0.3;
 	position:fixed;
 	bottom:20px;
 	right:40px;
-	display:none;			
+	display:none;
 	background:url(../images/icon_top.png) no-repeat;
 }
 
@@ -249,7 +250,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 #site-header{
-	
+
 }
 #header{}
 .logo{
@@ -374,7 +375,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/bg-image.png) no-repeat center top;
+	background:url(../images/banner.jpg) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
@@ -571,7 +572,7 @@ html, body{ height: 100%; }
     }
   }
 }
-	
+
 /*------------------------------------------------------------------
     ABOUT AREA
 -------------------------------------------------------------------*/
@@ -749,7 +750,7 @@ html, body{ height: 100%; }
 	width:100%;
 }
 .item-type-zoom .item-hover:hover {
-    opacity: 1;	
+    opacity: 1;
 }
 
 .item-type-zoom .item-hover:hover:before{
@@ -757,7 +758,7 @@ html, body{ height: 100%; }
 	position:absolute;
 	height:100%;
 	width:100%;
-	background:rgba(231, 91, 30, 0.5);
+	background:rgba(232, 187, 96, 0.5);
 	top:0px;
 	left:0px;
 }
@@ -792,7 +793,7 @@ html, body{ height: 100%; }
 
 
 .menu-main{
-	
+
 }
 
 .menu-main .title-caption{
@@ -964,7 +965,7 @@ html, body{ height: 100%; }
     -moz-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;	
+    -o-transition: all 0.5s ease-in;
 }
 
 .text-col h3{
@@ -1032,7 +1033,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .gallery-main{
-	
+
 }
 
 .gallery-main .title-caption{
@@ -1065,7 +1066,7 @@ html, body{ height: 100%; }
 	content:"\e003";
 	font-family: 'Glyphicons Halflings';
 	opacity: 0;
-	background-color: rgba(231, 91, 30, 0.75);
+	background-color: rgba(232, 187, 96, 0.75);
 	position: absolute;
 	right: 3px;
 	left: 3px;
@@ -1366,20 +1367,20 @@ html, body{ height: 100%; }
 }
 
 .panel-body  p strong span{
-	color: #e75b1e;
+	color: #e8bb60;
 }
 .panel-pricing{
-	border:1px solid #e75b1e;
+	border:1px solid #e8bb60;
 }
 .panel-pricing .panel-heading{
-	background: #e75b1e;
+	background: #e8bb60;
 }
 .pricing-main .panel-footer .btn-block{
 	border-radius:0px;
 }
 .pricing-main .panel-footer a{
-	background: #e75b1e;
-	border: 3px solid #e75b1e;
+	background: #e8bb60;
+	border: 3px solid #e8bb60;
 	color:#fff;
 	padding: 14px 16px;
 }
@@ -1408,7 +1409,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .reservations-main{
-	
+
 }
 
 .form-reservations-box{
@@ -1506,7 +1507,7 @@ html, body{ height: 100%; }
 }
 
 .reserve-book-btn{
-	padding-top:30px;	
+	padding-top:30px;
 }
 
 .reserve-book-btn button a{
@@ -1709,7 +1710,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-b ul li a:hover{
 	padding-left:5px;
-}	
+}
 
 .footer-box-c h3{
 	font-size:24px;
@@ -1857,7 +1858,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 #color-panel a.panel-button:hover{
 	color:#35cc75;
-}	
+}
 
 #color-panel h4{
 	margin:3px auto 15px;
@@ -1891,4 +1892,62 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .vivid-yellow-bg{
 	background: #fdcb03;
+}
+/* login page */
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #e8bb60;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
 }
