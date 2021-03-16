@@ -27,7 +27,7 @@
 	color: #e8bb60;
 }
 .item-type-zoom .item-hover:hover::before{
-	background: rgba(231, 91, 30, 0.5);
+	background: rgba(232, 187, 96, 0.5);
 }
 .special-box .owl-theme .owl-controls .owl-page.active span{
 	background: #e8bb60;
@@ -54,7 +54,7 @@
 	background-color: #e8bb60;
 }
 .gal-item a::after{
-	background-color: rgba(231, 91, 30, 0.75);
+	background-color: rgba(232, 187, 96, 0.75);
 }
 .overlay i:hover{
 	border: 1px solid #e8bb60;
