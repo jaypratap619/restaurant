@@ -32,11 +32,6 @@
     <!-- Modernizer -->
     <script src="js/modernizer.js"></script>
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -71,8 +66,9 @@
                                     <li><a href="#our_team">Team</a></li>
                                     <li><a href="#gallery">Gallery</a></li>
                                     <li><a href="#reservation">Reservaion</a></li>
-                                    <li><a href="#review">Reviews</a></li>
-                                    <li><a href="#footer">Contact us</a></li>
+                                    <li><a href="#review">Review</a></li>
+				    <li><a href="#footer">SignUp/SignIn</a></li>
+<!--                                     <li><a href="#footer">Contact us</a></li> -->
                                 </ul>
                             </div>
                             <!-- end nav-collapse -->
@@ -96,7 +92,6 @@
                         <div class="banner-cell">
                             <h1>Dinner with us  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Friends:Family:Officemates:Classmates" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
                             <h2>New Restaurant in Town</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
                             <div class="book-btn">
                                 <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
                             </div>
@@ -934,13 +929,45 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h2 class="ft-title color-white text-center"> Newsletter </h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <h2 class="ft-title color-white text-center"> Registration Form </h2>
                         </div>
-                        <form>
-                            <input type="email" placeholder="Enter your e-mail id">
-                            <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
-                        </form>
+			    <div class="container login-container">
+              <div class="row">
+                <div class="col-md-6 login-form-1">
+                  <h3>Sign In</h3>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" class="btnSubmit" value="Login" />
+                  </div>
+                  <div class="form-group">
+                    <a href="#" class="btnForgetPwd">Forget Password?</a>
+                  </div>
+
+                </div>
+                <div class="col-md-6 login-form-2">
+                  <h3>Sign Up</h3>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" class="btnSubmit" value="Register" />
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
                     </div>
                     <!-- end col -->
                 </div>
@@ -978,16 +1005,6 @@
                                             <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
                                         </a>
                                     </li>
-                                    <!-- <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-pinterest"></i></div>
-                                        </a>
-                                    </li> -->
-                                    <!-- <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-linkedin"></i></div>
-                                        </a>
-                                    </li> -->
                                 </ul>
 
                             </div>
@@ -1022,7 +1039,7 @@
                                 </p>
                                 <p>
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="#">support@John'sRestaurantBoulder.com</a></span>
+                                    <span><a href="#">support@xyz.com</a></span>
                                 </p>
                             </div>
                             <!-- end footer-box-c -->
@@ -1054,11 +1071,7 @@
             <!-- end container -->
             <div id="copyright" class="copyright-main">
                 <div class="container">
-                    <!-- <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h6 class="copy-title"> Copyright &copy; 2021 John's Restaurant Boulder is powered by <a href="#" target="_blank"></a> </h6>
-                        </div>
-                    </div> -->
+                    
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -1070,18 +1083,6 @@
     <!-- end footer-main -->
 
     <a href="#" class="scrollup" style="display: none;">Scroll</a>
-
-    <!-- <section id="color-panel" class="close-color-panel">
-        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
-        //Colors
-        <div class="segment">
-            <h4 class="gray2 normal no-padding">Color Scheme</h4>
-            <a title="orange" class="switcher orange-bg"></a>
-            <a title="strong-blue" class="switcher strong-blue-bg"></a>
-            <a title="moderate-green" class="switcher moderate-green-bg"></a>
-            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
-        </div>
-    </section> -->
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
